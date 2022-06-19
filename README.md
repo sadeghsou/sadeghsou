@@ -1,9 +1,9 @@
-<!-- ![Sadegh Sou](./profile-3d-contrib/profile-green-animate.svg) -->
-
+<!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sadeghsou&layout=compact)](https://github.com/anuraghazra/github-readme-stats) -->
 ![Sadegh Sou](https://readme-jokes.vercel.app/api?bgColor=%23073b4c&textColor=%2306d6a0&aColor=%2306d6a0&borderColor=%2306d6a0")
 ![Sadegh Sou](https://github-readme-stats.vercel.app/api?username=sadeghsou&show_icons=true&theme=radical)
 
-<!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sadeghsou&layout=compact)](https://github.com/anuraghazra/github-readme-stats) -->
+<!-- ![Sadegh Sou](./profile-3d-contrib/profile-green-animate.svg) -->
+
 ![NodeJs](https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/dev/frameworks/nodejs_larger.svg)
 ![Flutter](https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/dev/frameworks/flutter.svg)
 ![VueJs](https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/dev/frameworks/vue.svg)
