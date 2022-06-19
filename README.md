@@ -1,7 +1,7 @@
 <!-- ![](./profile-3d-contrib/profile-green-animate.svg) -->
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sadeghsou&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
-![Jokes Card](https://readme-jokes.vercel.app/api?hideBorder&theme=cobalt&qColor=%944bcc&aColor=%bbdb51)
+![Jokes Card](https://readme-jokes.vercel.app/api?hideBorder&theme=cobalt&qColor=%23944bcc&aColor=%23bbdb51)
 
 <!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sadeghsou&layout=compact)](https://github.com/anuraghazra/github-readme-stats) -->
 ![](https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/dev/frameworks/nodejs_larger.svg)
