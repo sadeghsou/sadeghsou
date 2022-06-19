@@ -1,4 +1,6 @@
 <!-- ![](./profile-3d-contrib/profile-green-animate.svg) -->
+
+![Jokes Card](https://readme-jokes.vercel.app/api)
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sadeghsou&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
 <!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sadeghsou&layout=compact)](https://github.com/anuraghazra/github-readme-stats) -->
