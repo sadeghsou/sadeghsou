@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   modules: [
     "@nuxtjs/tailwindcss",
     "@nuxt/image",
+    "@hypernym/nuxt-anime",
     [
       "@nuxtjs/google-fonts",
       {

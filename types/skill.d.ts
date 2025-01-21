@@ -2,7 +2,7 @@ declare global {
   interface Skill {
     name: string;
     image: string;
-    color: string;
+    colors: string[];
     fields: SkillField[];
     experiences: SkillExperience[];
   }
@@ -17,3 +17,4 @@ declare global {
     description: string;
   }
 }
+export default global;
