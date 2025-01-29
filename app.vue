@@ -19,14 +19,14 @@ const personSchema = ref(
     "jobTitle": "Senior Front-End developer",
     "name": "Mohammad Sadegh Sousahabi",
     "telephone": "(+98) 9129439150",
-    "url": "sadeghsou.github.io"
+    "url": "https://sadeghsou.github.io"
   });
 useSeoMeta({
   title: "Mohammad Sadegh Sousahabi",
   description: "Experienced software engineer with a strong focus on Front-End development, specializing in Vue.js, Nuxt.js, React, and modern UI frameworks",
   ogTitle: "Mohammad Sadegh Sousahabi",
   ogDescription: "Experienced software engineer with a strong focus on Front-End development, specializing in Vue.js, Nuxt.js, React, and modern UI frameworks",
-  ogImage: "sadeghsou.github.io/sadegh.jpg"
+  ogImage: "https://sadeghsou.github.io/sadegh.jpg"
 });
 useHead({
   script: [
