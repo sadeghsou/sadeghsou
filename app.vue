@@ -1,22 +1,59 @@
 <script setup lang="ts">
-const skills = ref<Skill[]>([
+const personSchema = ref(
   {
-    name: "Vue Js",
-    colors: ["#42b883", "#35495e"],
-    experiences: [],
-    fields: [],
-    image: "/vue.png"
-  }
-]);
+    "@context": "https://schema.org",
+    "@type": "Person",
+    // "address": {
+    //   "@type": "PostalAddress",
+    //   "addressLocality": "Seattle",
+    //   "addressRegion": "WA",
+    //   "postalCode": "98052",
+    //   "streetAddress": "20341 Whitworth Institute 405 N. Whitworth"
+    // },
+    // "colleague": [
+    //   "http://www.xyz.edu/students/alicejones.html",
+    //   "http://www.xyz.edu/students/bobsmith.html"
+    // ],
+    "email": "mailto:thesadeghsou@gmail.com",
+    "image": "sadegh.jpg",
+    "jobTitle": "Senior Front-End developer",
+    "name": "Mohammad Sadegh Sousahabi",
+    "telephone": "(+98) 9129439150",
+    "url": "sadeghsou.github.io"
+  });
+useSeoMeta({
+  title: "Mohammad Sadegh Sousahabi",
+  description: "Experienced software engineer with a strong focus on Front-End development, specializing in Vue.js, Nuxt.js, React, and modern UI frameworks",
+  ogTitle: "Mohammad Sadegh Sousahabi",
+  ogDescription: "Experienced software engineer with a strong focus on Front-End development, specializing in Vue.js, Nuxt.js, React, and modern UI frameworks",
+  ogImage: "sadeghsou.github.io/sadegh.jpg"
+});
+useHead({
+  script: [
+    {
+      type: "application/ld+json",
+      children: JSON.stringify(personSchema.value)
+    }
+  ]
+})
 </script>
 <template>
-  <div class="min-h-svh flex flex-col items-center bg-slate-100 container mx-auto p-8 gap-4">
-    <NuxtImg src="/logo.png" width="64" height="64" loading="lazy" />
-    <!-- <h1 class="text-4xl font-bold">Sadegh Sou</h1> -->
-    <h1 class="text-4xl font-bold">Datis</h1>
-    <p class="text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse nostrum quod, quia repellat
-      quaerat aliquid amet
-      deleniti vel similique sit culpa tempore rerum magni nesciunt! Voluptatum nemo repudiandae illum quisquam?</p>
-    <SkillCardList :skills="skills" />
+  <div class="bg-slate-100 min-h-svh text-gray-900">
+    <div class="container mx-auto py-9 flex flex-col gap-6 print:gap-4">
+      <Info />
+      <hr>
+      <Summery />
+      <hr>
+      <ExperienceList />
+      <hr>
+      <SkillsKey />
+      <hr>
+      <SkillsSoft />
+    </div>
   </div>
 </template>
+<style>
+* {
+  font-family: "Arial"
+}
+</style>
