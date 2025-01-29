@@ -6,5 +6,8 @@ export default defineNuxtConfig({
       Delius: true,
     },
   },
+  routeRules: {
+    "/": { prerender: true },
+  },
   compatibilityDate: "2025-01-29",
 });
