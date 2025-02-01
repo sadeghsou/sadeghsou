@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col md:flex-row gap-3 justify-between items-center">
+    <section class="flex flex-col md:flex-row gap-3 justify-between items-center">
         <div class="flex flex-col md:flex-row items-center gap-5">
             <img src="/sadegh.jpg" width="122" height="122" alt="Mohammad Sadegh Sousahabi"
                 class="rounded-full shadow-md">
@@ -10,5 +10,5 @@
             <a href="mailto:thesadeghsou@gmail.com">thesadeghsou@gmail.com</a>
             <span>Iran/Tehran</span>
         </div>
-    </div>
+    </section>
 </template>

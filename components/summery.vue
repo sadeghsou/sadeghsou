@@ -6,10 +6,10 @@ const summeries = ref<string[]>([
 ]);
 </script>
 <template>
-    <div class="flex flex-col gap-3">
+    <section class="flex flex-col gap-3">
         <h2 class="text-2xl print:text-xl font-bold mb-2"><a href="#summary">Summary</a></h2>
         <p v-for="(summery, index) in summeries" :key="`Summery${index}`" class="text-justify text-sm print:text-xs">{{
             summery }}
         </p>
-    </div>
+    </section>
 </template>

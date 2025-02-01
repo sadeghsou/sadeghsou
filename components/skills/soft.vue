@@ -7,12 +7,12 @@ const skills = ref<SoftSkill[]>([
 ]);
 </script>
 <template>
-    <div class="flex flex-col gap-3 print:gap-1">
+    <section class="flex flex-col gap-3 print:gap-1">
         <h2 class="text-2xl print:text-sm font-bold mb-2"><a href="#soft-skills">Soft Skills</a></h2>
         <div v-for="(skill, index) in skills" :key="`SoftSkillCat${index}`"
             class="flex flex-col md:flex-row items-start md:items-center gap-2 pl-6">
             <h3 class="font-bold print:text-base">{{ skill.title }}: </h3>
             <span class="text-sm print:text-xs text-justify">{{ skill.description }}</span>
         </div>
-    </div>
+    </section>
 </template>

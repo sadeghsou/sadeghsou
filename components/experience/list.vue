@@ -75,8 +75,8 @@ const experiences = ref<Experience[]>([
 ]);
 </script>
 <template>
-    <div class="flex flex-col gap-8 print:gap-4">
+    <section class="flex flex-col gap-8 print:gap-4">
         <h2 class="text-2xl print:text-xl font-bold mb-2"><a href="#experiences">Professional Experiences</a></h2>
         <Experience v-for="(exp, index) in experiences" :experience="exp" :key="`Experience${index}`" />
-    </div>
+    </section>
 </template>
