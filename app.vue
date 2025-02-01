@@ -24,14 +24,18 @@ const personSchema = ref(
 useSeoMeta({
   title: "Mohammad Sadegh Sousahabi",
   description: "Experienced software engineer with a strong focus on Front-End development, specializing in Vue.js, Nuxt.js, React, and modern UI frameworks",
+  robots: "index, follow",
+  author: "Mohammad Sadegh Sousahabi",
   ogTitle: "Mohammad Sadegh Sousahabi",
   ogDescription: "Experienced software engineer with a strong focus on Front-End development, specializing in Vue.js, Nuxt.js, React, and modern UI frameworks",
   ogSiteName: "Mohammad Sadegh Sousahabi",
   ogImage: "https://sadeghsou.github.io/sadegh.jpg",
   ogImageAlt: "Mohammad Sadegh Sousahabi",
-  robots: "index, follow",
-  author: "Mohammad Sadegh Sousahabi",
-
+  twitterCard: "summary",
+  twitterTitle: "Mohammad Sadegh Sousahabi",
+  twitterDescription: "Experienced software engineer with a strong focus on Front-End development, specializing in Vue.js, Nuxt.js, React, and modern UI frameworks",
+  twitterImage: "https://sadeghsou.github.io/sadegh.jpg",
+  twitterImageAlt: "Mohammad Sadegh Sousahabi"
 });
 useHead({
   script: [
