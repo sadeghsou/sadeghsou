@@ -22,7 +22,7 @@ const personSchema = ref(
     "url": "https://sadeghsou.github.io"
   });
 useSeoMeta({
-  title: "Mohammad Sadegh Sousahabi",
+  title: "Mohammad Sadegh Sousahabi | Senior Front-End developer",
   description: "Experienced software engineer with a strong focus on Front-End development, specializing in Vue.js, Nuxt.js, React, and modern UI frameworks",
   robots: "index, follow",
   author: "Mohammad Sadegh Sousahabi",
