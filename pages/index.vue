@@ -1,25 +1,7 @@
 <script setup lang="ts">
 const personSchema = ref(
   {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    // "address": {
-    //   "@type": "PostalAddress",
-    //   "addressLocality": "Seattle",
-    //   "addressRegion": "WA",
-    //   "postalCode": "98052",
-    //   "streetAddress": "20341 Whitworth Institute 405 N. Whitworth"
-    // },
-    // "colleague": [
-    //   "http://www.xyz.edu/students/alicejones.html",
-    //   "http://www.xyz.edu/students/bobsmith.html"
-    // ],
-    "email": "mailto:thesadeghsou@gmail.com",
-    "image": "sadegh.jpg",
-    "jobTitle": "Senior Front-End developer",
-    "name": "Mohammad Sadegh Sousahabi",
-    "telephone": "(+98) 9129439150",
-    "url": "https://sadeghsou.github.io"
+    "@context": "https://schema.org", "@type": "Person", "email": "mailto:thesadeghsou@gmail.com", "image": "sadegh.jpg", "jobTitle": "Senior Front-End developer", "name": "Mohammad Sadegh Sousahabi", "telephone": "(+98) 9129439150", "url": "https://sadeghsou.github.io"
   });
 useSeoMeta({
   title: "Mohammad Sadegh Sousahabi | Senior Front-End developer",

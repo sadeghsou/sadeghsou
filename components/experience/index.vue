@@ -1,14 +1,13 @@
 <script setup lang="ts">
-interface ExperienceProps { experience: Experience, key: string }
+interface ExperienceProps { company: string, title?: string, start: string, end: string, fields: string[], key: string }
 defineProps<ExperienceProps>();
 </script>
 <template>
     <div class="flex flex-col gap-3">
-        <h3 class="text-xl print:text-sm"><b>{{ experience.company }}</b> <span class="text-sm">({{ experience.start }}
-                - {{
-                    experience.end }})</span></h3>
-        <h4 class="print:text-xs font-bold" v-if="!!experience.title">{{ experience.title }}</h4>
-        <h5 v-for="(item, index) in experience.fields" :key="`${key}Item${index}`"
+        <h3 class="text-xl print:text-sm"><b>{{ company }}</b> <span class="text-sm">({{ start }} - {{ end }})</span>
+        </h3>
+        <h4 class="print:text-xs font-bold" v-if="!!title">{{ title }}</h4>
+        <h5 v-for="(item, index) in fields" :key="`${key}Item${index}`"
             class="experience-item text-sm print:text-xs relative pl-8">{{ item }}</h5>
     </div>
 </template>
