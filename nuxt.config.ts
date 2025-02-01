@@ -16,7 +16,7 @@ export default defineNuxtConfig({
       ],
     },
   },
-  modules: ["@nuxtjs/google-fonts", "@nuxtjs/tailwindcss"],
+  modules: ["@nuxtjs/google-fonts", "@nuxtjs/tailwindcss", "@nuxt/image"],
   googleFonts: {
     families: {
       Delius: true,
