@@ -29,7 +29,8 @@ useSeoMeta({
   ogSiteName: "Mohammad Sadegh Sousahabi",
   ogImage: "https://sadeghsou.github.io/sadegh.jpg",
   ogImageAlt: "Mohammad Sadegh Sousahabi",
-  robots: "index, follow"
+  robots: "index, follow",
+  author: "Mohammad Sadegh Sousahabi",
 
 });
 useHead({
